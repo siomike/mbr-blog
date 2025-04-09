@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+main h2, main h3 {
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 2em 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.recent-posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-posts li {
+    margin-bottom: 10px;
+}
+
+.post-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.post-list li {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.post-list li:last-child {
+    border-bottom: none;
+}
+
+.post-meta {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 1em 0;
+    font-size: 0.8em;
+    color: #777;
+}
+
+/* Specific page styles (optional, but can be useful) */
+.now-page ul, .about-page p, .contact-page ul, .contact-page form {
+    margin-top: 1em;
+}
+
+.contact-page ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-page li {
+    margin-bottom: 5px;
+}
+
+.contact-page form div {
+    margin-bottom: 10px;
+}
+
+.contact-page label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-page input[type="text"],
+.contact-page input[type="email"],
+.contact-page textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-page button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-page button[type="submit"]:hover {
+    background-color: #555;
+}
